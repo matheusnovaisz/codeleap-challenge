@@ -34,7 +34,7 @@ SECRET_KEY = 'django-insecure-kru*9le&4**-f2sr-lx_5^(h1p-*sq-m=2ue-99&abxe98=nj=
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["codeleap-challenge.fly.dev"]
+ALLOWED_HOSTS = ["codeleap-challenge.fly.dev", "localhost", "127.0.0.1"]
 
 
 # Application definition
