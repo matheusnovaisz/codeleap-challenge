@@ -10,6 +10,7 @@ This applications is deployed at https://codeleap-challenge.fly.dev/careers/
 
 ```
 git clone https://github.com/matheusnovaisz/codeleap-challenge.git
+cd codeleap-challenge/
 ```
 
 2. Copy the .env.example and set the DATABASE_URL variable
@@ -28,7 +29,7 @@ git clone https://github.com/matheusnovaisz/codeleap-challenge.git
 4. Run the migrations
 
 ```
-docker-compose run web usr/local/bin/python managapy.migrate
+docker-compose run web /usr/local/bin/python manage.py migrate
 ```
 
 5. Open your Django application on http://localhost:8000
